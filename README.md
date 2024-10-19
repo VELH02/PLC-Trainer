@@ -16,10 +16,19 @@ Este proyecto consiste en un entrenador para el control lógico programable (PLC
 - Caja para proyectos(nada especial): [LINK](https://www.amazon.com/-/es/Heyiarbeit-conexiones-proyectos-pulgadas-bricolaje/dp/B08X69B4L3/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=381M0VCN3GS2Y&dib=eyJ2IjoiMSJ9.hKKYKic5nFXL9zspsSnchp6GIupVcOE3sa0ocKo64LlOve4X0K2cV1d40aeLEP0L4xloja3ZREF-9xAugVYLpBU8GAjGl9BHhFARxGbPI9wyc24NoS58gq5DDTflZOgvfrYqT8dNRoo5Wm1jidZQBJa0OAI0foeOLdz0ceiUv-RqAMx6Fn4g0mjoQWeo-8G8WEXhvTdNpBHHTuPxA7vWYBqYneUyzj7uKXbZ_bDTFtO0ltJl-Opwb1iO-2PXz8iy5x3UwsdgNjj-FhkJ6bvenWGFRvtycR4UGmCnqM50wa8.Y0wA3HvHFxa6CJQejmwXyMT8_U2Y5sYNP0UV5q_vvE0&dib_tag=se&keywords=Caja%2bde%2bconexiones%2belectr%C3%B3nica%2bpara%2bproyectos,%2bde%2bmetal%2bazul&qid=1728872974&s=industrial&sprefix=caja%2bde%2bconexiones%2belectr%C3%B3nica%2bpara%2bproyectos,%2bde%2bmetal%2bazul,industrial,159&sr=1-5&th=1)
 
 ## Esquematico
-![Esquematico](https://github.com/VELH02/PLC-Trainer/blob/main/Esquematico.png?raw=true)
+![Esquematico](https://github.com/VELH02/PLC-Trainer/blob/main/Imagenes/Esquematico.png?raw=true)
+## Resultado
+![PLC Trainer Working](https://github.com/VELH02/PLC-Trainer/blob/main/Imagenes/Working.jpg?raw=true)
+
+## Consejos
+
+ 1. Utiliza una broca con pasos, que tenga hasta almenos 22mm, una como esta: ![Step](https://github.com/VELH02/PLC-Trainer/blob/main/Imagenes/Step.jpg?raw=true)
+ 2. Al abrir el agujero de la entrada AC, recuerda tener en cuenta que deberias conseguir una con Switch de encendido (no como yo), de no ser asi deberas conseguir otro interruptor de 2 o 3 posiciones para poder encender y apagar el modulo, ya que no esta bien que siempre este encendido. ![AC Plug](https://github.com/VELH02/PLC-Trainer/blob/main/Imagenes/AC%20plug.jpg?raw=true)
+ 3. Es buena practica Aterrizar todas las piezas metalicas de la caja, de esta forma en caso de que algun cable vivo se suelte y electrifique alguna placa metalica, este entrara e corto con tierra y no con algun estudiante o usuario.
+
 ## CadeSimu
 La esquematica se hizo utilizando Cadesimu
 
 Link de descarga de Cadesimu [Link](https://cade-simu.com/).
 
-Los programas de prueba Fueron Programados en Ladder en LogoSoft Comfort V8.3
+Los programas de prueba Fueron Programados en Ladder en L
